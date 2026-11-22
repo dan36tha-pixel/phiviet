@@ -15,7 +15,15 @@ $user    = current_user();
 $flashes = take_flashes();
 $page_title       = $page_title ?? '';
 $page_description = $page_description ?? SITE_NAME . ' — thư viện video theo chuyên mục, cập nhật hằng ngày.';
+
+// [SỬA] Chuẩn hóa canonical: loại bỏ index.html nếu có
 $page_canonical   = $page_canonical ?? current_url_clean();
+$page_canonical   = preg_replace('/index\.html?$/i', '', $page_canonical);
+// Đảm bảo URL kết thúc bằng / nếu là trang chủ
+if (substr($page_canonical, -1) !== '/' && strpos($page_canonical, '?') === false) {
+    $page_canonical .= '/';
+}
+
 $og_image         = $og_image ?? '';
 $og_type          = $og_type ?? 'website';
 $ld_json          = $ld_json ?? [];
@@ -63,6 +71,23 @@ if ($ld_json) {
   <?= ld_json_script(['@context' => 'https://schema.org', '@graph' => $graph]) ?>
   <link rel="stylesheet" href="static/css/style.css">
 
+  <!-- [SỬA] JavaScript redirect: nếu URL chứa index.html, chuyển về URL sạch ngay lập tức -->
+  <script>
+  (function() {
+      var path = window.location.pathname;
+      // Chỉ xử lý nếu có index.html hoặc index.htm trong URL
+      if (/index\.html?$/i.test(path)) {
+          var newPath = path.replace(/index\.html?$/i, '');
+          // Đảm bảo không bị mất dấu / ở cuối
+          if (newPath === '' || newPath.slice(-1) !== '/') {
+              newPath = newPath.replace(/\/?$/, '/');
+          }
+          // Giữ nguyên query string và hash nếu có
+          window.location.replace(newPath + window.location.search + window.location.hash);
+      }
+  })();
+  </script>
+
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -79,10 +104,12 @@ if ($ld_json) {
 
   <header class="topbar">
     <div class="topbar-inner">
+      <!-- [SỬA] Logo dùng ./ thay vì index.html -->
       <a class="logo" href="./">
         <span class="logo-mark">▶</span> SEX<span class="logo-accent">Việt</span>
       </a>
 
+      <!-- [SỬA] Form search action="./" để không bao giờ submit đến index.html -->
       <form class="search" action="./" method="get">
         <input type="text" name="q" placeholder="Tìm kiếm video..." value="<?= h($q) ?>">
         <button type="submit">🔍 Tìm</button>
