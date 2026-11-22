@@ -4,6 +4,14 @@
  */
 require_once __DIR__ . '/includes/helpers.php';
 
+// [SỬA] Redirect nếu URL chứa index.html - đặt ngay đầu file
+if (isset($_SERVER['REQUEST_URI']) && strpos($_SERVER['REQUEST_URI'], 'index.html') !== false) {
+    $clean_url = str_replace('index.html', '', $_SERVER['REQUEST_URI']);
+    $clean_url = rtrim($clean_url, '/') . '/';
+    header('Location: ' . $clean_url, true, 301);
+    exit;
+}
+
 // Đồng bộ link.txt vào database (chỉ chạy khi file thay đổi): dòng mới -> thêm,
 // dòng đổi link -> cập nhật, dòng bị xóa -> xóa luôn video đó. Sau đó hiển thị
 // như video bình thường bên dưới.
@@ -72,14 +80,20 @@ $ld_json = [[
 require __DIR__ . '/includes/header.php';
 ?>
 <!-- [SỬA] Canonical: ép SEO về URL gốc không có index.html -->
-<link rel="canonical" href="<?= h(to_absolute_asset('')) ?>">
+<link rel="canonical" href="<?= h(rtrim(to_absolute_asset(''), '/')) ?>/">
 
-<!-- [SỬA] Chuyển hướng nhẹ nếu người dùng truy cập /index.html -->
+<!-- [SỬA] JavaScript redirect mạnh hơn - chạy trước khi trang load xong -->
 <script>
-  // Nếu đường dẫn kết thúc bằng index.html, thay thế bằng đường dẫn gốc
-  if (window.location.pathname.endsWith('/index.html')) {
-    window.location.replace(window.location.pathname.replace(/index\.html$/, ''));
-  }
+(function() {
+    var path = window.location.pathname;
+    var search = window.location.search;
+    // Nếu URL chứa index.html ở bất kỳ vị trí nào
+    if (path.indexOf('index.html') !== -1) {
+        var newPath = path.replace(/index\.html/g, '').replace(/\/+/g, '/');
+        if (newPath === '') newPath = '/';
+        window.location.replace(newPath + search);
+    }
+})();
 </script>
 
 <!-- Google Analytics -->
