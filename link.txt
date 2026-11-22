@@ -1,0 +1,70 @@
+# ============================================================
+# link.txt — Danh sách video để nhập vào web (import.php)
+#
+# Format mỗi dòng:  Tên|Tiêu đề|Mô tả|[width]|[height]|<HTML nhúng>
+# Chuyên mục:       # ---------- TÊN CHUYÊN MỤC ----------
+# Dòng bắt đầu bằng # là comment, bỏ qua
+# Tiêu đề phải KHÁC NHAU, trùng tiêu đề sẽ bị bỏ qua khi nhập.
+# HTML nhúng là 1 trong 2 dạng:
+#   <video ... data-m3u8Url = 'https://...m3u8'></video>   (link HLS/m3u8 hoặc mp4)
+#   <iframe src="https://..."></iframe>                    (link nhúng ngoài)
+# ============================================================
+
+# ============================================================
+# link.txt — Danh sách video để nhập vào web (import.php)
+#
+# Format mỗi dòng:  Tên|Tiêu đề|Mô tả|[width]|[height]|<HTML nhúng>
+# Chuyên mục:       # ---------- TÊN CHUYÊN MỤC ----------
+# Dòng bắt đầu bằng # là comment, bỏ qua
+# Tiêu đề phải KHÁC NHAU, trùng tiêu đề sẽ bị bỏ qua khi nhập.
+# HTML nhúng là 1 trong 2 dạng:
+#   <video ... data-m3u8Url = 'https://...m3u8'></video>   (link HLS/m3u8 hoặc mp4)
+#   <iframe src="https://..."></iframe>                    (link nhúng ngoài)
+# ============================================================
+
+# ---------- PHIM VIỆT ----------
+https://baomoi-photo-fbcrawler.bmcdn.me/w1200_r3x2/2017_03_20_180_21813553/85f6733297727e2c2763.jpg|Em gái 2k9 có nốt ruồi ở mép lồn kia, này thì dâm thôi rồi||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-2.webgai.net/2026/10/up_1793383142777.m3u8'></video>
+https://3xchina.page/wp-content/uploads/2026/11/ama632.jpg|Việt Kiều về quê Clip sex chơi bạn thân Việt Kiều lần đầu về thăm quê hương||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-cdn77.xvideos-cdn.com/mYqvrsgmPRsayO8Nai4KSQ==,1793678376/3e5ead0d-8ddc-431b-a785-c0231c967eea/0/hls-720p-c76d9.m3u8'></video>
+https://i.ex-cdn.com/ngoisao.vn/files/f1/news/2022/05/10/salon-mac-bikini-goi-dau-23-ngoisaovn-w750-h1000.jpg|Nhân viên salon Bắn lên mặt em nhân viên salon||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-2.webgai.net/2026/10/up_1792303578759.m3u8'></video>
+https://chosaigon24h.vn/upload/images/quan-lot-lot-khe(2).jpg|Mông to xẻ đáy Quần lọt khe xẻ đáy với cặp mông to anh phải tốn bao nhiêu tinh trùng để lấp đầy||640|480|<iframe src="https://www.blogger.com/video.g?token=AD6v5dwft3ATWFEU1FqEj0nQP5w1v_4yO2cOtI-Q4PfNw1KteT53U9Yn4ijyijLwjU8rR2eV7coNUua20ZWnlsHb6MkGCkP1Wnh4Vs7j3DlD_yLv63cwUo-ow7cwyuLl0nJJPpYFeSc" allowfullscreen></iframe>
+https://kinhmatviethan.com/wp-content/uploads/2016/12/3_12_1317933532_77_1317824209-kinh-trang-091.jpg|Địt em kính cận này đã||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-2.webgai.net/2026/10/up_1791900753029.m3u8'></video>
+https://kenh14cdn.com/203336854389633024/2024/5/9/z5424226373024862b50b7323505874850e5745ceb486c-17152446520472042658182.jpg|Làm tình trong viện||640|480|<video controls playsinline width="640" height="480" data-m3u8Url="https://files.catbox.moe/fol2qa.mp4"></video>
+https://cdn77-t.boyfriendtv.com/b-boyfriendtv/thumbs/bftv-full/2024-12/c6/aed2fc9c642e4368e1077ca5de3d79aff.mp4-full-1.jpg|Video sex trai đẹp bắc kì deptrainhatmienbac địt nhau với cave già mộc lan đình thôn||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://s3.amvideo.cfd/qZ3H9g.mp4'></video>
+https://lon69.vip/wp-content/uploads/2026/11/Da-trang-vu-tron-em-hon-hit-tinh-cam-moi-doi-tu-the-ma-anh-chich-chut-da-xuat-tinh.jpg|Da trắng đồi núi tròn em hôn hít tình cảm mới đổi tư thế mà anh chịch chút đã xuất tinh||640|480|<iframe src="https://www.blogger.com/video.g?token=AD6v5dy9PnJYizUzPvFnYT6dwP7YX2M87EM9VX9HXaNamp6-qDChyP_fIYWUuD3Ftsuc1ShkeGA_nSKFD-wLV6TyVD9ZbfxPVuMCNo6eGuVgJBhG0_M_b5uDlc5AUDUkQKtEtEGY2w" allowfullscreen></iframe>
+https://static-images.vnncdn.net/vps_images_publish/000001/000003/2026/11/12/dien-vien-huyen-lizzie-dung-goi-toi-la-me-don-than-tu-do-nghe-kho-than-lam-1.jpeg?width=1200&s=Uh_KV6WkjjytJIFttsfICw|Gạ em người yêu cho thằng bạn chịch cùng ai ngờ em đồng ý luôn còn làm tình cực nhiệt||640|480|<iframe src="https://www.blogger.com/video.g?token=AD6v5dyXMHBH1qu-mr4FMG8D-Xv-AtBmgO_ekvsbg8sdqWBJZ4X51IWetxuhbSGKm2Pto3P2HvydQ97LkNOdsZ85yxdnxMeM-wnoTOI7nLFFbtmOXeIHHd6aZamPp9YUyaPR4DmJQH2_" allowfullscreen></iframe>
+https://cdn.eva.vn/upload/4-2023/images/2023-10-23/4-1698070847-961-width800height500.jpg|Hàng cực phẩm||640|480|<iframe src="https://www.blogger.com/video.g?token=AD6v5dyTMLIqWu0yhu4cPN5k_9MIYCLOJR_-IN-TqC9UYKKqZtpHhX0peyQ8appByjJGwoerngzaMA9qeMU6sTGgxhY5oXnJlaar0IIb0isLT0Uv2iBE6Dqn7BBngPSnHMLRc3X9Pv6l" allowfullscreen></iframe>
+https://cdn.24h.com.vn/upload/4-2018/images/2018-10-29/1540805883-615-han-8-1540544148-width600height350.jpg|Địt chất lượng thật||640|480|<iframe src="https://s11.amvideo.cfd/Lq6mh1Xn.mp4" allowfullscreen></iframe>
+https://media.licdn.com/dms/image/v2/C5612AQE-0OEldjuBSA/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1648021163731?e=2147483647&v=beta&t=Qtvrh3BKQzbkA_nTHmvLng-Nitq3vUrUbzD_fAKrZKA|Một gang tay||640|480|<iframe src="https://s11.amvideo.cfd/kVw94v.mp4" allowfullscreen></iframe>
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhROY-ZM5sKFN2fRHlCt5UjQY83h4S3CtJvnNv9RUD6Q&s|Hồi chiều trời mưa nứng lồn gọi dượng qua đụ cháu vợ dập như máy may||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://xnhau.pink/get_file/3/4361a2d24bd78de25285eaf3bf7e85be/591000/591953/591953.mp4'></video>
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy7Pub8xGZU0oC5CwKcOdfMvxfINdeOuR6SM_A77yXsB-PnDK2sAjIEQ&s=10|Nữ sinh Huế Việt Nam||640|480|<iframe src="https://drive.google.com/file/d/1n5lu4pAvtyhMsTvi7fmmV4GPzRPk1qGq/preview" allowfullscreen></iframe>
+https://img.viedn.net/uploads/2026/11/Ngoai-tinh-con-ga-em-chich-khong-bao-xuat-tinh-vao-buom-mang-ve-cho-chong-xem.jpg|Ngoại tình còn gạ em chịch không bao xuất tinh vào bướm mang về cho chồng xemg||640|480|<iframe src="https://www.blogger.com/video.g?token=AD6v5dyP3NHld3oZ75kI-eYt2TUAkLj24SCl0KqxlaCCXWA0BpFdTfi-JbDFsFq6RCwaNd-dcYhpyegxN460vkrGWOcSRSGTL8MW4UjDr6ZAT44pT0O-n2Rz2icCBoIsDrw6s2qi8P0W" allowfullscreen></iframe>
+https://img.viedn.net/uploads/2026/11/Mot-dem-man-nong-du-tu-the-voi-em-gai-xinh-da-trang-em-con-hoi-anh-da-khong.jpg|Một đêm mặn nồng đủ tư thế với em gái xinh da trắng em còn hỏi anh có đã không||640|480|<iframe src="https://www.blogger.com/video.g?token=AD6v5dz4s3JsF45GGzbaipWhKZHztJkchf5YPKzcFeHhVMKK_H2ohXV7af-qDjlTP7yOlZ_VtU8uEMVBDwy4aG3PnPn5D_LjOQWI6vz7CJr3h6DCEYIxJXeWqzSu_UVLPiPmBAK1l270" allowfullscreen></iframe>
+
+
+# ---------- SINH VIÊN ----------
+https://photo.znews.vn/w660/Uploaded/cqdhmdxwp/2019_06_06/61141925_852295551813925_631889789377772289_n_copy.jpg|Nhìn quả chim chán thật sự, đã nhỏ rồi còn ngắn ngủn ?. Rồi độ bi làm gì nhìn thêm hài hước||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-2.webgai.net/2026/10/up_1792841535301.m3u8'></video>
+https://vcdn1-vnexpress.vnecdn.net/2025/06/23/download-28-1750672433-5319-1750673169.jpg?w=1020&h=0&q=100&dpr=2&fit=crop&s=qFPJ-XchfjYVVZ_BSj2YJw|Công nhận sinh viên gái tàu nét thiệt||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-2.webgai.net/2026/10/up_1792918116897.m3u8'></video>
+https://kenh14cdn.com/203336854389633024/2025/11/3/img2468-17620811441592142993967-1762154856191-176215485688636866861.jpg|Thư ký riêng của giám đốc||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-2.webgai.net/2026/10/v_6adc472c22602.m3u8'></video>
+https://kenh14cdn.com/2019/9/2/6634140813563387611890628710671229406674944n-1566811468962979366090-15674419093951409165307.jpg|Đụ cô bạn thân vú bự của con gái||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-2.webgai.net/2026/10/v_6ad3354d212e8.m3u8'></video
+https://img.nungvl.net/p0/Y3JYcnk1MSs2aTZ6TDQ1N3ZGdlpOUGxjeDNhd3RCNmp2VXNINkVKbVMwR255NGt4bGxYNVdCUXVIK3ZxbWhJVWtOTVkxck9wdkpPUHNWYzVNNDVwUzR0Vzl6Q1Z0aERuV0MwdW5aZTVjY3R1MlE0cjZmN2ZGWjBKMEJ0bG5CMHUvZEVjb1FQYm9jeGtrcUxrZlhyM0dSdGZETVFuU0ZCSzVlSnUvMVl1Zm1BPQ-d.jpg|Đưa chim cho em mút||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-2.webgai.net/2026/10/up_1791977087883.m3u8'></video>
+https://sinhlyviet.com/wp-content/uploads/2022/09/Vung-trom-vet-mang-lon-con-dau-tre-xinh-xan-Mina-Kitano.jpg|Bé nhân viên vú to cực phẩm trải bìa các-tông chịch em trong nhà kho công ty||640|480|<iframe src="https://www.blogger.com/video.g?token=AD6v5dwsREeOW0P4fSLxC_z1Xd-X_rbLqx2RGyMiW7jzzjbKnMNF-XQIFAa-RmqHkX2zsdLXwnBMTWhT7SxhprfI48Wf0Q3OjDWqGdFWicETicpTNMKy9g_pCsyHmSgnEcut28qAjl1j" allowfullscreen></iframe>
+
+
+# ---------- CAMERA ----------
+https://sohanews.sohacdn.com/thumb_w/480/2013/cha-chong-nhan-tam-cuong-doat-con-dau-lam-vo-1-1371133015378.jpg|Mẹ kế ngoại tình với con chồng||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-2.webgai.net/2026/10/v_6ae32bdc5c900.m3u8'></video>
+https://ss-images.saostar.vn/wwebp700/2023/9/13/pc/1694601151560/saostar-5upias7kup8szvmb.jpg|Em nó vừa ngậm chim vừa xem tiktok||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-2.webgai.net/2026/10/up_1792726793029.m3u8'></video>
+|Em sinh viên ngoại thương mình dây xinh||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-2.webgai.net/2026/10/up_1792725145284.m3u8'></video>
+https://thanhnien.mediacdn.vn/Uploaded/2014/ihay.thanhnien.com.vn/Pictures201410/MinhNguyet/Thang10/19/minhTrang2.jpg|Hai đứa trẻ tự quay lại cảnh địt nhau||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-2.webgai.net/2026/10/up_1792227291695.m3u8'></video>
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ucqq0e2UMB9BF1su_W9ncH42LYSI1-6_eyI-uHtaYXF40bWO-Xnm8dg&s=10|Quay lén mấy em gái massage đang làm cho khách sung sướng||640|480|<video controls playsinline width="640" height="480" data-m3u8Url = 'https://hls-2.webgai.net/2026/10/up_1791285420463.m3u8'></video>
+https://xe5s.vn/uploads/raovat/images/19_467-38.webp|siêu xe vf3 buồi có không mà đòi như nó||640|480|<video controls playsinline width="640" height="480" data-m3u8Url="https://yq.zpi.cx/11/j0ZrAk2OJ2GB.mp4"></video>
+https://images2.thanhnien.vn/528068263637045248/2024/5/30/1-1717061342235564865776.jpeg|Loạn luân Việt Nam – Phang em gái họ||640|480|<iframe src="https://play.kbj.lol/x/NDI1MjcxMjFNeVNhbHRfMjAyNg.html" allowfullscreen></iframe>
+https://ic-vt-nss.xhcdn.com/a/MmU0ZmExYTkyMDc5Zjk0ZWU4OTNlNDY4MzQ5Yzg4N2Y/s(w:1280,h:720),webp/024/324/490/1280x720.17081988.jpg|Hack Camera Cặp vợ chồng dâm đãng chịch nhau trước mặt con nhỏ||640|480|<iframe src="https://drive.google.com/file/d/1DwUQpMmtnB09TJJq5uX9j0wSrgYpFVkP/preview" allowfullscreen></iframe>
+https://img.viedn.net/uploads/2026/11/Trinh-vu-to-2k5-Quang-Tri-hack-camera-lo-clip-lam-tinh-cung-ban-than.jpg|Trinh vú to 2k5 Quảng Trị hack camera lộ clip làm tình cùng||640|480|<iframe src="https://www.blogger.com/video.g?token=AD6v5dyfPQ8tnmjfLfNkkzP8Wcch4Yd1RF3yIytF1qvjhDnAYRRpJYc6iYOCmpOPyED09omlvfM3OtRmICIjHEYu927_W6Q2yV-ns-YzupBNqtEtqPtQmyppcIHcmirmZ0WuWUPz77E3" allowfullscreen></iframe>
+https://phimsexsuong3x.net/wp-content/uploads/2026/11/Clip-Sex-Co-Gai-Giang-To-Trung-Quoc-Bi-Chong-Lua-Doi-Vo-3-Cap-Doi-haysex3x.jpg|Clip Sex Cô Gái Giang Tô Trung Quốc Bị Chồng Lừa Đổi Vợ 3 Cặp Đôi||640|480|<iframe src="https://drive.google.com/file/d/167k2VI0gGgq89ip-DhCtgWll5M3RYPS8/preview" allowfullscreen></iframe>
+
+# ---------- PHIM AI ----------
+https://images.sexdamvn.com/images/dua-em-nu-sinh-moi-lon-vao-nha-nghi-phang-nhiet-tinh.jpg|Học sinh phang nhau dâm vl||640|480|<iframe src="https://play.kbj.lol/x/MzYxNTg4MTlNeVNhbHRfMjAyNg.html" allowfullscreen></iframe>
+https://spirit.vietnamairlines.com/wp-content/uploads/2026/05/1-132.jpg|Tranh thủ lúc con đi học chưa về đu đưa với em trên ghế||640|480|<iframe src="https://drive.google.com/file/d/1g1EXUj_f0yncEsvFV8xEUPJgaM73C9rg/preview" allowfullscreen></iframe>
+https://cdn2.tuoitre.vn/nld/291774122806476800/2023/12/6/chi-chi-em-em-2-jpeg-1192-1675331594-17018640623711097447560.jpg|Một mối tình cấm kỵ với mẹ kế ngực đầy đặn và các chị em||640|480|<iframe src="https://drive.google.com/file/d/1ZrJnpRqSOq0bxvlwixMp2mizJgpVtZSV/preview" allowfullscreen></iframe>
+https://giadinh.mediacdn.vn/296230595582509056/2026/10/27/linh-rin-1-1793089455481645412328.jpg|Anh Dể Cô Em Dâu Sinh Đẹp||640|480|<iframe src="https://drive.google.com/file/d/1fn0Oud-5L2jzBmJgIiZKeAQlMIKpRZx3/preview" allowfullscreen></iframe>
+https://giadinh.mediacdn.vn/296230595582509056/2021/10/14/o0600033513473012050-16341972794811076463080.jpg|Anh ta có mối quan hệ vụng trộm với người em gái kế xinh đẹp sống cùng nhà||640|480|<iframe src="https://drive.google.com/file/d/1FHeCkTyD_smWb70uqPgXQ1ttG7KBL1TC/preview" allowfullscreen></iframe>

@@ -1,0 +1,8 @@
+# Thư mục data: file video/thumbnail phải truy cập được qua trình duyệt,
+# nhưng không cho liệt kê thư mục.
+Options -Indexes
+
+# Chặn file mốc đồng bộ (không cần thiết cho người xem).
+<FilesMatch "\.(mtime|json)$">
+  Require all denied
+</FilesMatch>

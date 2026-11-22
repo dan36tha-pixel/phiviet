@@ -1,25 +1,22 @@
-# CakePHP 3
+# Bí mật / cấu hình máy local — KHÔNG commit
+/config.local.php
 
-/vendor/*
-/config/app.php
+# Clone repo (thư mục làm việc riêng, không phải nguồn code)
+/s-viet/
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Log + mốc đồng bộ + file sinh ra lúc chạy
+/data/error.log
+/data/link.txt.mtime
+/data/link.txt.titles.json
+/data/thumbs/*
+/data/videos/*
 
-/logs/*
-!/logs/empty
+# Giữ lại các file .htaccess bảo vệ thư mục data
+!/data/.htaccess
+!/data/thumbs/.htaccess
+!/data/videos/.htaccess
 
-# CakePHP 2
-
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
+# File tạm của hệ điều hành / editor
+Thumbs.db
+.DS_Store
+*.tmp

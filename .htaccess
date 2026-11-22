@@ -1,0 +1,20 @@
+# VuTube PHP — cấu hình Apache chung (InfinityFree dùng Apache 2.4)
+DirectoryIndex index.php index.html
+Options -Indexes
+AddDefaultCharset UTF-8
+
+# Ẩn "index.php" trên thanh địa chỉ: /index.php?... -> /?... (giữ query string)
+# Dùng THE_REQUEST để không bị loop với internal redirect của DirectoryIndex.
+RewriteEngine On
+RewriteCond %{THE_REQUEST} \s/+[^?\s]*index\.php(\?|\s) [NC]
+RewriteRule ^index\.php$ / [R=301,L]
+
+# File hướng dẫn AI / search (sinh động theo domain)
+RewriteRule ^llms\.txt$   llms.php   [L]
+RewriteRule ^robots\.txt$ robots.php [L]
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+# Chặn truy cập trực tiếp file cấu hình / log
+<FilesMatch "^(config\.php|error\.log)$">
+  Require all denied
+</FilesMatch>
