@@ -71,6 +71,17 @@ $ld_json = [[
 ]];
 require __DIR__ . '/includes/header.php';
 ?>
+<!-- [SỬA] Canonical: ép SEO về URL gốc không có index.html -->
+<link rel="canonical" href="<?= h(to_absolute_asset('')) ?>">
+
+<!-- [SỬA] Chuyển hướng nhẹ nếu người dùng truy cập /index.html -->
+<script>
+  // Nếu đường dẫn kết thúc bằng index.html, thay thế bằng đường dẫn gốc
+  if (window.location.pathname.endsWith('/index.html')) {
+    window.location.replace(window.location.pathname.replace(/index\.html$/, ''));
+  }
+</script>
+
 <!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtm.js?id=G-R0B5BY69VF"></script>
 <script>
