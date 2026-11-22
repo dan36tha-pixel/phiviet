@@ -16,6 +16,9 @@
 !/data/thumbs/.htaccess
 !/data/videos/.htaccess
 
+# Bản tĩnh sinh ra bởi tools/build-static.mjs (GitHub Pages tự build, không commit)
+/dist/
+
 # File tạm của hệ điều hành / editor
 Thumbs.db
 .DS_Store

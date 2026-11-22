@@ -1,0 +1,28 @@
+/* ===== Bổ sung cho bản tĩnh (GitHub Pages) ===== */
+
+/* Cổng 18+ dạng lớp phủ: nội dung vẫn nằm trong HTML để bot đọc được,
+   JS chỉ hiện lớp phủ khi người xem chưa bấm xác nhận. */
+.age-gate-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  overflow-y: auto;
+  background: rgba(8, 8, 10, .93);
+  backdrop-filter: blur(6px);
+}
+.age-gate-overlay[hidden] { display: none; }
+
+/* Đếm số video đang hiển thị sau khi lọc */
+.result-count {
+  color: var(--text-dim);
+  font-size: .85rem;
+  margin: -8px 0 14px;
+}
+.result-count:empty { display: none; }
+
+/* Thẻ bị lọc ẩn hẳn (kể cả khi .grid dùng display:grid) */
+.card[hidden] { display: none; }
